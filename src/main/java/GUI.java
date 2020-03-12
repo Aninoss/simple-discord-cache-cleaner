@@ -60,9 +60,12 @@ public class GUI extends JFrame {
         fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         if (fileChooser.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {
             File folderDestination = fileChooser.getSelectedFile();
+            File newFolderDestination = new File(folderDestination + "/DiscordCache");
+            if (!newFolderDestination.exists()) newFolderDestination.mkdir();
+
             setLocked(true);
             setStatus(true, "Files are getting extracted...");
-            computer.extractFiles(this, folderDestination);
+            computer.extractFiles(this, newFolderDestination);
         }
     }
 
