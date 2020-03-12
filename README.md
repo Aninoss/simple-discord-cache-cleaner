@@ -6,7 +6,7 @@ Discord saves all the files you receive into the cache.
 With the help of this tool, you can free some storage space and potentially find some deleted files.
 
 ## Features
-- Dump most the cache with mostly the right file format
+- Dump the cache with mostly the right file format
 - Clear the entire cache
 
 ## Download
