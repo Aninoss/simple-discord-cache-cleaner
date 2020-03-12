@@ -9,7 +9,7 @@ With the help of this tool, you can free some storage space and potentially find
 - Dump the cache with mostly the right file format
 - Clear the entire cache
 
-![Screenshot](https://raw.githubusercontent.com/Aninoss/SimpleDiscordCacheCleaner/master/screenshot.png)
-
 ## Download
 [Download the newest version](https://github.com/Aninoss/SimpleDiscordCacheCleaner/releases)
+
+![Screenshot](https://raw.githubusercontent.com/Aninoss/SimpleDiscordCacheCleaner/master/screenshot.png)
